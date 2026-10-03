@@ -2,7 +2,7 @@
 
 The Main Target Users are the Collage students who everyday waste their time due to long waiting at the collage work/hangout places. The Project Focuses on providing students latest info regarding the crowd/queue status at certain collage places, they coud see whether the crowd strength is High, Medium or Less, Estimated waiting time is also provided and number of seats available to rest are also provided. Users Presents at the Location can Update the details on the Web-app according to curent status.
 
-# Overall it helps users decide whether they shold leave for a Particular place to get their work done / Decide priority to visit collage places so to save maximum time and get things done in less time than usuall. 
+Overall it helps users decide whether they shold leave for a Particular place to get their work done / Decide priority to visit collage places so to save maximum time and get things done in less time than usuall. 
 
 ## Live Demo
 https://qdigest.vercel.app/
