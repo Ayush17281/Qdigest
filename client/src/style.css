@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f0;
+    color: #222;
+}
+
+.app {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 24px;
+}
+
+header {
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    color: #666;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.card {
+    min-width: 0;
+    background: white;
+    border: 2px solid #222;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 5px 5px 0 #222;
+}
+
+.card h2 {
+    margin: 0 0 12px;
+    font-size: 25px;
+}
+
+.card p {
+    margin: 9px 0;
+    color: #444;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.low {
+    background: #c9f7d5;
+}
+
+.medium {
+    background: #fff0b8;
+}
+
+.high {
+    background: #ffcaca;
+}
+
+button {
+    margin-top: 15px;
+    padding: 9px 16px;
+    border: 2px solid #222;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+.update-form {
+    margin-top: 18px;
+    padding-top: 15px;
+    border-top: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.update-form label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.update-form input,
+.update-form select {
+    width: 100%;
+    padding: 9px;
+    border: 2px solid #aaa;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.updated {
+    font-size: 13px;
+    color: #777 !important;
+    margin-top: 15px !important;
+}
+
+/* Phone */
+@media (max-width: 600px) {
+
+    .app {
+        padding: 25px 16px;
+    }
+
+    header {
+        margin-bottom: 25px;
+    }
+
+    header h1 {
+        font-size: 38px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .card {
+        padding: 20px;
+        box-shadow: 4px 4px 0 #222;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
