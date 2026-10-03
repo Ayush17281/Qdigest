@@ -12,7 +12,7 @@ function App() {
     });
 
     const fetchLocations = () => {
-        fetch("http://localhost:5000/api/locations")
+        fetch("https://qdigest.onrender.com/api/locations")
             .then((response) => response.json())
             .then((data) => setLocations(data))
             .catch((error) => console.log(error));
@@ -34,7 +34,7 @@ function App() {
     };
 
     const updateLocation = async (id) => {
-        await fetch(`http://localhost:5000/api/locations/${id}`, {
+        await fetch(`https://qdigest.onrender.com/api/locations/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json"
