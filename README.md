@@ -37,7 +37,16 @@ In the Web Application i have a Feature to update the crowd condition at the lis
 6. Insted of Manually counting/estimating crowd count it using Camera (Open CV)
 
 
-# How to Run it ??
+## 📸 Screenshots
+
+### Qdigest
+
+![Qdigest](screenshots/Qdigest.png)
+
+### Update Crowd Condition
+
+![Qdigest Update](screenshots/Qdigest_update.png)
+
 
 # How to Run
 
